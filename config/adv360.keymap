@@ -79,11 +79,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3                &kp F4            &kp F5          &kp F6    &tog 1                                      &mo 3   &kp F7         &kp F8           &kp F9             &kp F10                &kp F11  &kp F12
-&trans  &trans  &trans                &trans            &trans          &trans    &none                                       &none   &none          &trans           &trans             &public                &trans   &trans
-&trans  &trans  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp PIPE  &none   &trans  &trans      &trans  &trans  &none   &kp AMPERSAND  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans   &trans
-&trans  &trans  &trans                &trans            &trans          &trans                    &trans      &trans                  &trans         &email           &kp LESS_THAN      &kp GREATER_THAN       &trans   &trans
-&trans  &trans  &trans                &trans            &trans                    &trans  &trans  &trans      &trans  &trans  &trans                 &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP        &trans   &trans
+&kp F1  &kp F2  &kp F3            &kp F4          &kp F5                &kp F6         &tog 1                                      &mo 3   &kp F7    &kp F8                 &kp F9             &kp F10            &kp F11  &kp F12
+&trans  &trans  &kp MINUS         &kp EQUAL       &kp TILDE             &trans         &none                                       &none   &trans    &kp DOLLAR             &kp EXCLAMATION    &kp PLUS           &trans   &trans
+&trans  &trans  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &none   &trans  &trans      &trans  &trans  &none   &kp PIPE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp RIGHT_BRACKET  &trans   &trans
+&trans  &trans  &kp HASH          &kp LESS_THAN   &kp NON_US_BACKSLASH  &trans                         &trans      &trans                  &trans    &kp SLASH              &kp GREATER_THAN   &kp AT_SIGN        &trans   &trans
+&trans  &trans  &trans            &trans          &trans                               &trans  &trans  &trans      &email  &trans  &trans            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &trans   &trans
             >;
         };
 
