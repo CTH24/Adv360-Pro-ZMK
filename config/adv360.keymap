@@ -79,11 +79,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2       &kp F3         &kp F4                &kp F5                &kp F6         &tog 1                                      &mo 3   &kp F7    &kp F8                 &kp F9             &kp F10           &kp F11       &kp F12
-&trans  &trans       &kp HASH       &kp MINUS             &kp LEFT_PARENTHESIS  &trans         &none                                       &none   &trans    &kp RIGHT_PARENTHESIS  &kp PLUS           &kp DOLLAR        &trans        &trans
-&trans  &kp AT_SIGN  &kp LESS_THAN  &kp EQUAL             &kp LEFT_BRACE        &kp AMPERSAND  &none   &trans  &trans      &trans  &trans  &none   &kp PIPE  &kp RIGHT_BRACE        &kp EXCLAMATION    &kp GREATER_THAN  &kp ASTERISK  &trans
-&trans  &trans       &kp TILDE      &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &trans                         &trans      &trans                  &trans    &kp RIGHT_BRACKET      &kp SLASH          &kp CARET         &trans        &trans
-&trans  &trans       &trans         &trans                &trans                               &trans  &trans  &trans      &email  &trans  &trans            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans        &trans
+&kp F1  &kp F2  &kp F3         &kp F4           &kp F5                &kp F6         &tog 1                                                                     &mo 3                  &kp F7    &kp F8                 &kp F9             &kp F10           &kp F11  &kp F12
+&trans  &trans  &kp SLASH      &kp MINUS        &kp LEFT_PARENTHESIS  &trans         &none                                                                      &none                  &trans    &kp RIGHT_PARENTHESIS  &kp PLUS           &kp ASTERISK      &trans   &trans
+&trans  &trans  &kp LESS_THAN  &kp EXCLAMATION  &kp LEFT_BRACE        &kp AMPERSAND  &none                 &trans          &trans      &trans  &trans           &none                  &kp PIPE  &kp RIGHT_BRACE        &kp EQUAL          &kp GREATER_THAN  &trans   &trans
+&trans  &trans  &kp TILDE      &kp HASH         &kp LEFT_BRACKET      &trans                                               &trans      &trans                                          &trans    &kp RIGHT_BRACKET      &kp DOLLAR         &kp CARET         &trans   &trans
+&trans  &trans  &trans         &trans           &trans                               &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &trans      &email  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans   &trans
             >;
         };
 
